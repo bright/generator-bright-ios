@@ -1,8 +1,13 @@
 {
-  "name": "generator-ios",
-  "version": "0.0.1",
-  "description": "Generator for iOS projects using GYP. Loosely based on https://github.com/Deviatry/generator-ios",
+  "name": "generator-bright-ios",
+  "version": "0.0.2",
+  "description": "Generator for iOS projects using GYP.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bright/generator-bright-ios"
+  },
+  "author": "Michał Łukasiewicz <michal.lukasiewicz@brightinventions.pl> (http://brightinventions.pl)",
   "scripts": {
     "test": "mocha"
   },
@@ -10,6 +15,9 @@
     "app"
   ],
   "keywords": [
+    "ios",
+    "xcode",
+    "gyp",
     "yeoman-generator"
   ],
   "dependencies": {
