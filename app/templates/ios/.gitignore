@@ -1,0 +1,35 @@
+build/
+*.mode*
+*.pbxuser
+.svn
+*.orig
+*.perspective
+*.perspectivev3
+*.trace
+*project.xcworkspace/
+*.xcuserdatad
+
+# AppCode Noise
+
+.idea
+
+# OSX Noise
+.DS_Store
+
+# Git Noise
+*.orig
+*.BACKUP.*
+*.REMOTE.*
+*.BASE.*
+
+# project specific apps
+apps
+*.xcodeproj/
+*.xcworkspace/
+Pods/
+Podfile.lock
+
+out/
+Error*.png
+*.mobileprovision
+fastlane/report.xml

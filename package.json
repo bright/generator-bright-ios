@@ -1,0 +1,27 @@
+{
+  "name": "generator-ios",
+  "version": "0.0.1",
+  "description": "Generator for iOS projects using GYP. Loosely based on https://github.com/Deviatry/generator-ios",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "glob": "^5.0.5",
+    "yeoman-generator": "^0.19.1",
+    "yosay": "^1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
